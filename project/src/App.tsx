@@ -1,6 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, ExternalLink, Code2, Briefcase, User, ChevronDown, FileText } from 'lucide-react';
 
+
 function App() {
   return (
     <div className="min-h-screen bg-gray-50">
@@ -20,7 +21,7 @@ function App() {
             <div className="relative">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="https://portfolio-project-56vp.onrender.com/photo.jpg"
+                  src="../photo.jpg"
                   alt="Your Photo"
                   className="w-full h-full object-cover"
                 />
@@ -49,7 +50,7 @@ function App() {
               </a>
             </div>
             <a
-              href="https://portfolio-project-56vp.onrender.com/Yaswanth_Marissa.pdf"
+              href="https://drive.google.com/file/d/1n_YUS8DByJaQfFppmKvJXrhvqJcUeXJN/view?usp=drive_link"
               className="inline-flex items-center gap-2 bg-white text-indigo-600 px-6 py-3 rounded-lg hover:bg-indigo-50 transition-colors border-2 border-indigo-600 font-semibold"
               target="_blank"
               rel="noopener noreferrer"
