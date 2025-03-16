@@ -21,7 +21,7 @@ function App() {
             <div className="relative">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="../photo.jpg"
+                  src="../public/photo.jpg"
                   alt="Your Photo"
                   className="w-full h-full object-cover"
                 />
